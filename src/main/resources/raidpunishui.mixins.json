@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "ru.raidmine.raidpunishui.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ChatHudMixin",
+    "ScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

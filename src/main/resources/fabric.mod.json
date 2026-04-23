@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "raidpunishui",
+  "version": "${version}",
+  "name": "RaidPunishUI",
+  "description": "Clickable punishment UI for moderators in chat.",
+  "authors": ["OpenAI"],
+  "contact": {},
+  "license": "Custom",
+  "icon": "assets/raidpunishui/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "ru.raidmine.raidpunishui.client.RaidPunishUiClient"
+    ]
+  },
+  "mixins": [
+    "raidpunishui.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
